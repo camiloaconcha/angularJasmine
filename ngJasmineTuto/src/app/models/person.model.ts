@@ -9,6 +9,6 @@ export class Person {
         return `${this.name} ${this.lastname}`;
     }
     getAgeInYears(years: number ): number {
-        return this.age + years;
+       return years > 0 ?  this.age + years : this.age;
     }
 }

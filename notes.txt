@@ -1,0 +1,3 @@
+Tools:
+Jasmine
+Mocha:npm i karma-mocha-reporter
